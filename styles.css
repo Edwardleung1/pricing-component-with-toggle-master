@@ -6,6 +6,7 @@
 
 body {
   background-color: hsl(240, 78%, 98%);
+  color: hsl(232, 13%, 33%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,4 +42,42 @@ h1 {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin: 10px;
+}
+
+.price-box h4 {
+  margin: 0;
+}
+
+.price-box p {
+  font-size: 4em;
+  margin: 15px 0;
+}
+
+.price-box ul {
+  border-top: 1px solid hsl(234, 14%, 74%);
+  padding: 0;
+  list-style-type: none;
+}
+
+.price-box ul li {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  color: hsl(233, 13%, 49%);
+  padding: 15px 0px;
+}
+
+.price-box button {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-top: 10px;
+  width: 100%;
+  text-transform: uppercase;
 }
