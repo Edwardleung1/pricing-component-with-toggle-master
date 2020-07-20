@@ -25,3 +25,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+h1 {
+  color: hsl(233, 13%, 49%);
+}
+
+.toggle-container {
+  color: hsl(234, 14%, 74%);
+  margin-bottom: 40px;
+}
+
+.price-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 10px;
+}
