@@ -98,6 +98,18 @@ h1 {
   margin: 15px 0;
 }
 
+.price-box .monthly {
+  display: none;
+}
+
+.show-monthly .price-box .monthly {
+  display: block;
+}
+
+.show-monthly .price-box .annually {
+  display: none;
+}
+
 .price-box ul {
   border-top: 1px solid hsl(234, 14%, 74%);
   padding: 0;
